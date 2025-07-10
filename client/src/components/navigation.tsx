@@ -20,7 +20,7 @@ export function Navigation() {
     { href: "/contact", label: "Contact" },
   ];
 
-  const logo = theme === "dark" ? logoWhite : logoColors;
+  const logo = logoColors;
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-sm border-b border-border transition-colors">

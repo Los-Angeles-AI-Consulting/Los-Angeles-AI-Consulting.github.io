@@ -18,7 +18,7 @@ const createEmailTransporter = () => {
     },
   };
 
-  return nodemailer.createTransporter(emailConfig);
+  return nodemailer.createTransport(emailConfig);
 };
 
 export async function registerRoutes(app: Express): Promise<Server> {
