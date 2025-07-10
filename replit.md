@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a modern, full-stack web application for Los Angeles AI Consulting, built with React, TypeScript, Express, and PostgreSQL. It features a professional business website with contact form functionality, modern UI components, and a robust backend API.
+This project is a modern, full-stack web application for Los Angeles AI Consulting, built with React, TypeScript, Express, and PostgreSQL. It features a professional business website with contact form functionality, modern UI components, and a robust backend API. The application is fully prepared for AWS deployment with proper database integration and production configurations.
 
 ## User Preferences
 
@@ -118,3 +118,12 @@ Preferred communication style: Simple, everyday language.
 7. Start production server: `npm start`
 
 The application is structured for easy deployment to platforms like Replit, Vercel, or traditional hosting providers, with clear separation between development and production configurations.
+
+## Recent Changes
+
+### January 2025
+- **AWS Deployment Preparation**: Added complete AWS deployment configuration with three deployment options (Amplify, Elastic Beanstalk, Serverless)
+- **Database Integration**: Implemented PostgreSQL database with Drizzle ORM, including both development (memory) and production (database) storage layers
+- **File Structure Refactoring**: Created root-level index.html for better deployment compatibility while maintaining existing Vite configuration
+- **SEO Enhancement**: Added comprehensive SEO metadata including Open Graph and Twitter Card tags
+- **Production Configuration**: Added build specifications, nginx configuration, and environment setup for AWS deployment

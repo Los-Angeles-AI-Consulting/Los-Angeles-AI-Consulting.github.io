@@ -86,6 +86,13 @@ npm run build
 npm start
 ```
 
+## File Structure
+- `index.html` - Root-level HTML file that redirects to the application
+- `client/index.html` - Main application HTML file with SEO metadata
+- `client/src/` - React application source code
+- `server/` - Express.js backend
+- `shared/` - Shared TypeScript schemas and types
+
 ## Database Migration
 Run this command after setting up RDS:
 ```bash
