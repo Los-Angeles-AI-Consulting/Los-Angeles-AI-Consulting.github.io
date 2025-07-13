@@ -17,6 +17,7 @@
             --card-dark: #152B50;
             --border-light: #e0e0e0;
             --border-dark: #182f43;
+            --link-hover: #c0f3ff;
         }
 
         * {
@@ -62,6 +63,10 @@
             align-items: center;
         }
 
+        .header-content a:hover {
+            color: var(--link-hover);
+        }
+
         .logo {
             display: flex;
             align-items: center;
@@ -95,7 +100,7 @@
 
 
         .logo-text {
-            font-size: 1.2rem;
+            font-size: 1.5rem;
         }
 
         nav ul {
@@ -113,7 +118,7 @@
         }
 
         nav a:hover {
-            opacity: 0.7;
+            color: var(--link-hover)
         }
 
         .theme-toggle {
@@ -205,6 +210,7 @@
         .cta-button:hover {
             transform: translateY(-2px);
             box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            color: var(--link-hover);
         }
 
         .section {
@@ -243,6 +249,7 @@
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
             transition: all 0.3s ease;
             border: 2px solid transparent;
+            text-align: center;
         }
 
         .dark-mode .service-card {
@@ -477,7 +484,7 @@
         <div id="home" class="page active">
             <div class="hero">
                 <div class="container">
-                    <h1>Get a free consultation</h1>
+                    <h1>Book a free consultation</h1>
                     <p>Transform your business with AI-powered solutions</p>
                     <a href="#" class="cta-button" onclick="showPage('contact')">Contact Us Today</a>
                 </div>
@@ -664,6 +671,7 @@
 
     <footer>
         <div class="container">
+            <p>Phone: (818) 724-4460 &nbsp&nbsp&nbsp&nbsp Email: info@losangelesaiconsulting.com</p>
             <p>&copy; 2025 Los Angeles AI Consulting</p>
         </div>
     </footer>
